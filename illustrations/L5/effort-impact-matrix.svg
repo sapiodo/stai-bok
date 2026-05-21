@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Inter, 'SF Pro Display', -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#F8FFF2" rx="12"/>
+
+  <!-- Header -->
+  <rect width="900" height="60" fill="#0C2340" rx="12"/>
+  <rect y="50" width="900" height="12" fill="#0C2340"/>
+  <text x="450" y="32" text-anchor="middle" fill="#F8FFF2" font-size="22" font-weight="700">МАТРИЦА EFFORT / IMPACT</text>
+  <text x="450" y="50" text-anchor="middle" fill="#99ADCF" font-size="12">Приоритизация точек воздействия</text>
+
+  <!-- Axes -->
+  <!-- Vertical axis: Impact -->
+  <line x1="120" y1="600" x2="120" y2="100" stroke="#0C2340" stroke-width="2"/>
+  <polygon points="120,100 115,115 125,115" fill="#0C2340"/>
+  <text x="65" y="350" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="700" transform="rotate(-90, 65, 350)">IMPACT (эффект)</text>
+  <text x="95" y="590" fill="#999" font-size="11">Низкий</text>
+  <text x="95" y="120" fill="#999" font-size="11">Высокий</text>
+
+  <!-- Horizontal axis: Effort -->
+  <line x1="120" y1="600" x2="820" y2="600" stroke="#0C2340" stroke-width="2"/>
+  <polygon points="820,600 805,595 805,605" fill="#0C2340"/>
+  <text x="470" y="640" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="700">EFFORT (усилия)</text>
+  <text x="150" y="625" fill="#999" font-size="11">Низкий</text>
+  <text x="790" y="625" fill="#999" font-size="11">Высокий</text>
+
+  <!-- Quadrant dividers -->
+  <line x1="470" y1="100" x2="470" y2="600" stroke="#0C2340" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+  <line x1="120" y1="350" x2="820" y2="350" stroke="#0C2340" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+
+  <!-- Quadrant 1: QUICK WINS (top-left) — low effort, high impact -->
+  <rect x="125" y="105" width="340" height="240" fill="#3DCBC0" rx="12" opacity="0.12"/>
+
+  <!-- Star burst / highlight -->
+  <text x="295" y="135" text-anchor="middle" fill="#3DCBC0" font-size="24">★</text>
+  <text x="295" y="162" text-anchor="middle" fill="#0C2340" font-size="20" font-weight="700">QUICK WINS</text>
+  <text x="295" y="184" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="600">Делать ПЕРВЫМИ!</text>
+  <text x="295" y="208" text-anchor="middle" fill="#555" font-size="12">Быстрый результат +</text>
+  <text x="295" y="224" text-anchor="middle" fill="#555" font-size="12">мотивация для команды</text>
+
+  <!-- Example bubbles -->
+  <rect x="170" y="245" width="250" height="35" fill="#3DCBC0" rx="17" opacity="0.15"/>
+  <text x="295" y="267" text-anchor="middle" fill="#0C2340" font-size="12">Прозрачные метрики (ур. 3)</text>
+  <rect x="180" y="290" width="230" height="35" fill="#3DCBC0" rx="17" opacity="0.15"/>
+  <text x="295" y="312" text-anchor="middle" fill="#0C2340" font-size="12">Оптимизация параметров (ур. 1)</text>
+
+  <!-- Quadrant 2: STRATEGIC PROJECTS (top-right) — high effort, high impact -->
+  <rect x="475" y="105" width="340" height="240" fill="#F7AF22" rx="12" opacity="0.1"/>
+
+  <text x="645" y="145" text-anchor="middle" fill="#0C2340" font-size="20" font-weight="700">СТРАТЕГИЧЕСКИЕ</text>
+  <text x="645" y="168" text-anchor="middle" fill="#0C2340" font-size="20" font-weight="700">ПРОЕКТЫ</text>
+  <text x="645" y="192" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="600">Планировать и выполнять</text>
+  <text x="645" y="212" text-anchor="middle" fill="#555" font-size="12">Основа долгосрочных</text>
+  <text x="645" y="228" text-anchor="middle" fill="#555" font-size="12">изменений</text>
+
+  <!-- Example bubbles -->
+  <rect x="525" y="250" width="240" height="35" fill="#F7AF22" rx="17" opacity="0.15"/>
+  <text x="645" y="272" text-anchor="middle" fill="#0C2340" font-size="12">Изменение целей (ур. 4)</text>
+  <rect x="535" y="295" width="220" height="35" fill="#F7AF22" rx="17" opacity="0.15"/>
+  <text x="645" y="317" text-anchor="middle" fill="#0C2340" font-size="12">Смена парадигмы (ур. 5)</text>
+
+  <!-- Quadrant 3: FILL-INS (bottom-left) — low effort, low impact -->
+  <rect x="125" y="355" width="340" height="240" fill="#D4D8DD" rx="12" opacity="0.12"/>
+
+  <text x="295" y="400" text-anchor="middle" fill="#666" font-size="20" font-weight="700">FILL-INS</text>
+  <text x="295" y="425" text-anchor="middle" fill="#666" font-size="14">Делать, если есть время</text>
+  <text x="295" y="450" text-anchor="middle" fill="#999" font-size="12">Не приоритет</text>
+
+  <!-- Example -->
+  <rect x="180" y="475" width="230" height="35" fill="#D4D8DD" rx="17" opacity="0.3"/>
+  <text x="295" y="497" text-anchor="middle" fill="#666" font-size="12">Мелкие улучшения UX</text>
+
+  <!-- Quadrant 4: POSTPONE (bottom-right) — high effort, low impact -->
+  <rect x="475" y="355" width="340" height="240" fill="#e94560" rx="12" opacity="0.06"/>
+
+  <text x="645" y="400" text-anchor="middle" fill="#e94560" font-size="20" font-weight="700">ОТЛОЖИТЬ</text>
+  <text x="645" y="425" text-anchor="middle" fill="#e94560" font-size="14">Не тратить ресурсы</text>
+  <text x="645" y="450" text-anchor="middle" fill="#999" font-size="12">Пересмотреть, если</text>
+  <text x="645" y="466" text-anchor="middle" fill="#999" font-size="12">контекст изменится</text>
+
+  <!-- X mark -->
+  <text x="645" y="520" text-anchor="middle" fill="#e94560" font-size="36" opacity="0.3">✕</text>
+
+  <!-- Priority arrows -->
+  <text x="295" y="90" text-anchor="middle" fill="#3DCBC0" font-size="12" font-weight="700">① ПЕРВЫЙ ПРИОРИТЕТ</text>
+  <text x="645" y="90" text-anchor="middle" fill="#F7AF22" font-size="12" font-weight="700">② ВТОРОЙ ПРИОРИТЕТ</text>
+
+  <!-- Note at bottom -->
+  <rect x="120" y="650" width="700" height="30" fill="#0C2340" rx="6" opacity="0.05"/>
+  <text x="470" y="670" text-anchor="middle" fill="#555" font-size="12">Effort = организационная сложность (ресурсы, время, согласования). Impact = эффект на ключевую проблему.</text>
+
+  <!-- Footer -->
+  <text x="450" y="698" text-anchor="middle" fill="#99ADCF" font-size="10">514-CM-MIPT | Занятие 5 | Приоритизация точек воздействия</text>
+</svg>

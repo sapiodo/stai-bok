@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="Inter, 'SF Pro Display', -apple-system, sans-serif">
+  <defs>
+    <marker id="arrowPlus" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3DCBC0"/>
+    </marker>
+    <marker id="arrowMinus" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e94560"/>
+    </marker>
+    <marker id="arrowNeutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0C2340"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="850" fill="#F8FFF2" rx="12"/>
+
+  <!-- Header -->
+  <rect width="1200" height="70" fill="#0C2340" rx="12"/>
+  <rect y="60" width="1200" height="12" fill="#0C2340"/>
+  <text x="600" y="33" text-anchor="middle" fill="#F8FFF2" font-size="24" font-weight="700">CLD-СТРУКТУРЫ ПЯТИ АРХЕТИПОВ</text>
+  <text x="600" y="55" text-anchor="middle" fill="#99ADCF" font-size="13">Каждый архетип = готовая Causal Loop Diagram</text>
+
+  <!-- Legend -->
+  <rect x="30" y="80" width="1140" height="30" fill="#0C2340" rx="4" opacity="0.05"/>
+  <circle cx="80" cy="95" r="6" fill="#3DCBC0"/>
+  <text x="92" y="99" fill="#555" font-size="11">R — усиливающая петля</text>
+  <circle cx="250" cy="95" r="6" fill="#F7AF22"/>
+  <text x="262" y="99" fill="#555" font-size="11">B — балансирующая петля</text>
+  <line x1="420" y1="95" x2="460" y2="95" stroke="#666" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="470" y="99" fill="#555" font-size="11">Delay (запаздывание)</text>
+  <line x1="620" y1="95" x2="650" y2="95" stroke="#3DCBC0" stroke-width="2" marker-end="url(#arrowPlus)"/>
+  <text x="660" y="99" fill="#555" font-size="11">+ (same direction)</text>
+  <line x1="790" y1="95" x2="820" y2="95" stroke="#e94560" stroke-width="2" marker-end="url(#arrowMinus)"/>
+  <text x="830" y="99" fill="#555" font-size="11">− (opposite direction)</text>
+
+  <!-- ARCHETYPE 1: Limits to Growth -->
+  <rect x="30" y="120" width="560" height="210" fill="#fff" rx="10" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="50" y="148" fill="#0C2340" font-size="16" font-weight="700">01. LIMITS TO GROWTH</text>
+  <text x="50" y="166" fill="#3DCBC0" font-size="12" font-weight="600">«Пределы роста»</text>
+
+  <!-- R-loop -->
+  <ellipse cx="200" cy="255" rx="65" ry="40" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="200" y="260" text-anchor="middle" fill="#3DCBC0" font-size="16" font-weight="700">R</text>
+  <text x="200" y="277" text-anchor="middle" fill="#3DCBC0" font-size="10">рост</text>
+
+  <!-- B-loop with delay -->
+  <ellipse cx="400" cy="255" rx="65" ry="40" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="400" y="260" text-anchor="middle" fill="#F7AF22" font-size="16" font-weight="700">B</text>
+  <text x="400" y="277" text-anchor="middle" fill="#F7AF22" font-size="10">ограничение</text>
+
+  <!-- Delay mark -->
+  <line x1="330" y1="240" x2="336" y2="240" stroke="#666" stroke-width="3"/>
+  <line x1="336" y1="235" x2="336" y2="245" stroke="#666" stroke-width="2"/>
+  <line x1="340" y1="235" x2="340" y2="245" stroke="#666" stroke-width="2"/>
+
+  <!-- Connection -->
+  <line x1="265" y1="245" x2="330" y2="245" stroke="#0C2340" stroke-width="1.5" marker-end="url(#arrowNeutral)"/>
+
+  <!-- Labels -->
+  <text x="80" y="200" fill="#555" font-size="11">Усилия → Результаты</text>
+  <text x="80" y="215" fill="#555" font-size="11">→ Ресурсы → Усилия</text>
+  <text x="340" y="200" fill="#555" font-size="11">Результаты →||→</text>
+  <text x="340" y="215" fill="#555" font-size="11">Сопротивление</text>
+
+  <!-- Leverage -->
+  <rect x="50" y="300" width="180" height="22" fill="#3DCBC0" rx="4" opacity="0.15"/>
+  <text x="58" y="315" fill="#0C2340" font-size="10" font-weight="600">Рычаг: работать с ограничением</text>
+
+  <!-- ARCHETYPE 2: Shifting the Burden -->
+  <rect x="610" y="120" width="560" height="210" fill="#fff" rx="10" stroke="#0C2340" stroke-width="2"/>
+  <text x="630" y="148" fill="#0C2340" font-size="16" font-weight="700">02. SHIFTING THE BURDEN</text>
+  <text x="630" y="166" fill="#0C2340" font-size="12" font-weight="600">«Подмена проблемы»</text>
+
+  <!-- B1 loop -->
+  <ellipse cx="730" cy="245" rx="45" ry="30" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="730" y="250" text-anchor="middle" fill="#F7AF22" font-size="13" font-weight="700">B1</text>
+  <text x="730" y="264" text-anchor="middle" fill="#F7AF22" font-size="9">быстрая</text>
+
+  <!-- B2 loop with delay -->
+  <ellipse cx="870" cy="245" rx="45" ry="30" fill="none" stroke="#F7AF22" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="870" y="250" text-anchor="middle" fill="#F7AF22" font-size="13" font-weight="700">B2</text>
+  <text x="870" y="264" text-anchor="middle" fill="#F7AF22" font-size="9">фунд.</text>
+
+  <!-- R loop (dependency) -->
+  <ellipse cx="1020" cy="245" rx="45" ry="30" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="1020" y="250" text-anchor="middle" fill="#e94560" font-size="13" font-weight="700">R</text>
+  <text x="1020" y="264" text-anchor="middle" fill="#e94560" font-size="9">зависимость</text>
+
+  <!-- Connections -->
+  <line x1="775" y1="245" x2="825" y2="245" stroke="#0C2340" stroke-width="1" marker-end="url(#arrowNeutral)"/>
+  <line x1="915" y1="245" x2="975" y2="245" stroke="#e94560" stroke-width="1" marker-end="url(#arrowMinus)"/>
+
+  <!-- Labels -->
+  <text x="650" y="200" fill="#555" font-size="10">Симптом → Quick fix</text>
+  <text x="650" y="213" fill="#555" font-size="10">→(−)→ Симптом</text>
+  <text x="830" y="200" fill="#555" font-size="10">Симптом → Фунд.</text>
+  <text x="830" y="213" fill="#555" font-size="10">→||→(−)→ Симптом</text>
+  <text x="980" y="200" fill="#555" font-size="10">Quick fix → Ослабление</text>
+  <text x="980" y="213" fill="#555" font-size="10">→(−)→ Фунд. решение</text>
+
+  <!-- Leverage -->
+  <rect x="630" y="300" width="210" height="22" fill="#3DCBC0" rx="4" opacity="0.15"/>
+  <text x="638" y="315" fill="#0C2340" font-size="10" font-weight="600">Рычаг: усиливать фундаментальное</text>
+
+  <!-- ARCHETYPE 3: Fixes that Fail -->
+  <rect x="30" y="345" width="560" height="210" fill="#fff" rx="10" stroke="#F7AF22" stroke-width="2"/>
+  <text x="50" y="373" fill="#0C2340" font-size="16" font-weight="700">03. FIXES THAT FAIL</text>
+  <text x="50" y="391" fill="#F7AF22" font-size="12" font-weight="600">«Решения, которые не работают»</text>
+
+  <!-- B loop -->
+  <ellipse cx="200" cy="470" rx="65" ry="35" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="200" y="475" text-anchor="middle" fill="#F7AF22" font-size="16" font-weight="700">B</text>
+  <text x="200" y="492" text-anchor="middle" fill="#F7AF22" font-size="10">quick fix</text>
+
+  <!-- R loop with delay -->
+  <ellipse cx="400" cy="470" rx="65" ry="35" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="400" y="475" text-anchor="middle" fill="#e94560" font-size="16" font-weight="700">R</text>
+  <text x="400" y="492" text-anchor="middle" fill="#e94560" font-size="10">последствия</text>
+
+  <!-- Delay -->
+  <line x1="330" y1="460" x2="336" y2="460" stroke="#666" stroke-width="3"/>
+  <line x1="336" y1="455" x2="336" y2="465" stroke="#666" stroke-width="2"/>
+  <line x1="340" y1="455" x2="340" y2="465" stroke="#666" stroke-width="2"/>
+
+  <line x1="265" y1="460" x2="330" y2="460" stroke="#0C2340" stroke-width="1.5" marker-end="url(#arrowNeutral)"/>
+
+  <!-- Labels -->
+  <text x="80" y="420" fill="#555" font-size="11">Проблема → Решение</text>
+  <text x="80" y="435" fill="#555" font-size="11">→(−)→ Проблема</text>
+  <text x="340" y="420" fill="#555" font-size="11">Решение →||→(+)→</text>
+  <text x="340" y="435" fill="#555" font-size="11">Последствия →(+)→ Проблема</text>
+
+  <!-- Key insight -->
+  <rect x="50" y="515" width="250" height="22" fill="#F7AF22" rx="4" opacity="0.15"/>
+  <text x="58" y="530" fill="#0C2340" font-size="10" font-weight="600">Delay — ключевой: связь с ухудшением неочевидна</text>
+
+  <!-- Leverage -->
+  <rect x="310" y="515" width="260" height="22" fill="#3DCBC0" rx="4" opacity="0.15"/>
+  <text x="318" y="530" fill="#0C2340" font-size="10" font-weight="600">Рычаг: прогнозировать последствия 2-го порядка</text>
+
+  <!-- ARCHETYPE 4: Eroding Goals -->
+  <rect x="610" y="345" width="560" height="210" fill="#fff" rx="10" stroke="#e94560" stroke-width="2"/>
+  <text x="630" y="373" fill="#0C2340" font-size="16" font-weight="700">04. ERODING GOALS</text>
+  <text x="630" y="391" fill="#e94560" font-size="12" font-weight="600">«Размывание целей»</text>
+
+  <!-- B1 loop with delay -->
+  <ellipse cx="780" cy="470" rx="55" ry="35" fill="none" stroke="#F7AF22" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="780" y="473" text-anchor="middle" fill="#F7AF22" font-size="14" font-weight="700">B1</text>
+  <text x="780" y="490" text-anchor="middle" fill="#F7AF22" font-size="9">улучшение (delay)</text>
+
+  <!-- B2 loop fast -->
+  <ellipse cx="960" cy="470" rx="55" ry="35" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="960" y="473" text-anchor="middle" fill="#F7AF22" font-size="14" font-weight="700">B2</text>
+  <text x="960" y="490" text-anchor="middle" fill="#F7AF22" font-size="9">снижение цели</text>
+
+  <!-- VS -->
+  <text x="870" y="475" text-anchor="middle" fill="#666" font-size="12" font-weight="700">vs</text>
+
+  <!-- Labels -->
+  <text x="680" y="420" fill="#555" font-size="10">Разрыв → Действия →||→</text>
+  <text x="680" y="435" fill="#555" font-size="10">→(−)→ Разрыв</text>
+  <text x="900" y="420" fill="#555" font-size="10">Разрыв → Давление →</text>
+  <text x="900" y="435" fill="#555" font-size="10">Снижение цели →(−)→ Разрыв</text>
+
+  <!-- Trend arrow down -->
+  <text x="1080" y="460" fill="#e94560" font-size="11" font-weight="600">Цель</text>
+  <line x1="1100" y1="465" x2="1120" y2="500" stroke="#e94560" stroke-width="2"/>
+  <text x="1120" y="515" fill="#e94560" font-size="20">↓</text>
+
+  <!-- Leverage -->
+  <rect x="630" y="520" width="200" height="22" fill="#3DCBC0" rx="4" opacity="0.15"/>
+  <text x="638" y="535" fill="#0C2340" font-size="10" font-weight="600">Рычаг: держать цель фиксированной</text>
+
+  <!-- ARCHETYPE 5: Success to the Successful -->
+  <rect x="30" y="570" width="1140" height="200" fill="#fff" rx="10" stroke="#99ADCF" stroke-width="2"/>
+  <text x="50" y="598" fill="#0C2340" font-size="16" font-weight="700">05. SUCCESS TO THE SUCCESSFUL</text>
+  <text x="50" y="616" fill="#99ADCF" font-size="12" font-weight="600">«Успех к успешным»</text>
+
+  <!-- R1 loop (success A) -->
+  <ellipse cx="300" cy="700" rx="70" ry="35" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="300" y="698" text-anchor="middle" fill="#3DCBC0" font-size="16" font-weight="700">R1</text>
+  <text x="300" y="718" text-anchor="middle" fill="#3DCBC0" font-size="10">успех A ↑</text>
+
+  <!-- R2 loop (failure B) -->
+  <ellipse cx="700" cy="700" rx="70" ry="35" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="700" y="698" text-anchor="middle" fill="#e94560" font-size="16" font-weight="700">R2</text>
+  <text x="700" y="718" text-anchor="middle" fill="#e94560" font-size="10">неуспех B ↓</text>
+
+  <!-- Zero-sum connection -->
+  <line x1="370" y1="695" x2="630" y2="695" stroke="#0C2340" stroke-width="2" stroke-dasharray="8,4"/>
+  <rect x="440" y="682" width="120" height="24" fill="#F8FFF2" rx="4"/>
+  <text x="500" y="698" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="700">ZERO-SUM</text>
+  <text x="500" y="712" text-anchor="middle" fill="#666" font-size="10">Ресурсы A →(−)→ Ресурсы B</text>
+
+  <!-- Labels -->
+  <text x="150" y="660" fill="#555" font-size="11">Успех A →(+)→ Ресурсы к A</text>
+  <text x="150" y="676" fill="#555" font-size="11">→(+)→ Успех A</text>
+  <text x="800" y="660" fill="#555" font-size="11">Неуспех B →(+)→ Сокращение</text>
+  <text x="800" y="676" fill="#555" font-size="11">ресурсов B →(+)→ Неуспех B</text>
+
+  <!-- Key condition -->
+  <rect x="900" y="695" width="250" height="40" fill="#F7AF22" rx="6" opacity="0.12"/>
+  <text x="910" y="712" fill="#0C2340" font-size="10" font-weight="600">Ключевое условие: общий пул ресурсов.</text>
+  <text x="910" y="727" fill="#0C2340" font-size="10">Если ресурсы независимы — архетип не работает.</text>
+
+  <!-- Leverage -->
+  <rect x="50" y="745" width="220" height="20" fill="#3DCBC0" rx="4" opacity="0.15"/>
+  <text x="58" y="759" fill="#0C2340" font-size="10" font-weight="600">Рычаг: независимые критерии оценки</text>
+
+  <!-- Footer -->
+  <text x="600" y="840" text-anchor="middle" fill="#99ADCF" font-size="10">514-CM-MIPT | Занятие 4 | Источник: Senge (1990), Kim (1992)</text>
+</svg>

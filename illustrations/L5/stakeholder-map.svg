@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Inter, 'SF Pro Display', -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#F8FFF2" rx="12"/>
+
+  <!-- Header -->
+  <rect width="900" height="60" fill="#0C2340" rx="12"/>
+  <rect y="50" width="900" height="12" fill="#0C2340"/>
+  <text x="450" y="32" text-anchor="middle" fill="#F8FFF2" font-size="22" font-weight="700">КАРТА СТЕЙКХОЛДЕРОВ</text>
+  <text x="450" y="50" text-anchor="middle" fill="#99ADCF" font-size="12">Влияние × Интерес</text>
+
+  <!-- Axes -->
+  <!-- Vertical axis: Influence -->
+  <line x1="120" y1="600" x2="120" y2="100" stroke="#0C2340" stroke-width="2"/>
+  <polygon points="120,100 115,115 125,115" fill="#0C2340"/>
+  <text x="70" y="350" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="700" transform="rotate(-90, 70, 350)">ВЛИЯНИЕ</text>
+  <text x="95" y="590" fill="#999" font-size="11">Низкое</text>
+  <text x="95" y="120" fill="#999" font-size="11">Высокое</text>
+
+  <!-- Horizontal axis: Interest -->
+  <line x1="120" y1="600" x2="820" y2="600" stroke="#0C2340" stroke-width="2"/>
+  <polygon points="820,600 805,595 805,605" fill="#0C2340"/>
+  <text x="470" y="640" text-anchor="middle" fill="#0C2340" font-size="14" font-weight="700">ИНТЕРЕС</text>
+  <text x="150" y="625" fill="#999" font-size="11">Низкий</text>
+  <text x="790" y="625" fill="#999" font-size="11">Высокий</text>
+
+  <!-- Quadrant dividers -->
+  <line x1="470" y1="100" x2="470" y2="600" stroke="#0C2340" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+  <line x1="120" y1="350" x2="820" y2="350" stroke="#0C2340" stroke-width="1" stroke-dasharray="8,4" opacity="0.3"/>
+
+  <!-- Quadrant 1: High Influence + Low Interest (top-left) -->
+  <rect x="125" y="105" width="340" height="240" fill="#F7AF22" rx="12" opacity="0.08"/>
+  <text x="295" y="140" text-anchor="middle" fill="#F7AF22" font-size="16" font-weight="700">ДЕРЖАТЬ ДОВОЛЬНЫМИ</text>
+  <text x="295" y="162" text-anchor="middle" fill="#666" font-size="12">Информировать о ключевых решениях.</text>
+  <text x="295" y="178" text-anchor="middle" fill="#666" font-size="12">Не создавать проблем.</text>
+
+  <!-- Example: Investors -->
+  <rect x="180" y="200" width="130" height="45" fill="#F7AF22" rx="22" opacity="0.2"/>
+  <rect x="180" y="200" width="130" height="45" fill="none" stroke="#F7AF22" stroke-width="1.5" rx="22"/>
+  <text x="245" y="220" text-anchor="middle" fill="#0C2340" font-size="13" font-weight="600">Инвесторы</text>
+  <text x="245" y="237" text-anchor="middle" fill="#666" font-size="10">Высокое вл. / Средний инт.</text>
+
+  <!-- Example: Regulators -->
+  <rect x="200" y="260" width="130" height="45" fill="#F7AF22" rx="22" opacity="0.2"/>
+  <rect x="200" y="260" width="130" height="45" fill="none" stroke="#F7AF22" stroke-width="1.5" rx="22"/>
+  <text x="265" y="280" text-anchor="middle" fill="#0C2340" font-size="13" font-weight="600">Регуляторы</text>
+  <text x="265" y="297" text-anchor="middle" fill="#666" font-size="10">Высокое вл. / Низкий инт.</text>
+
+  <!-- Quadrant 2: High Influence + High Interest (top-right) -->
+  <rect x="475" y="105" width="340" height="240" fill="#3DCBC0" rx="12" opacity="0.1"/>
+  <text x="645" y="140" text-anchor="middle" fill="#0C2340" font-size="16" font-weight="700">УПРАВЛЯТЬ ТЕСНО</text>
+  <text x="645" y="162" text-anchor="middle" fill="#666" font-size="12">Вовлекать, согласовывать,</text>
+  <text x="645" y="178" text-anchor="middle" fill="#666" font-size="12">совместные решения.</text>
+
+  <!-- Example: Restaurant partners -->
+  <rect x="540" y="200" width="200" height="45" fill="#3DCBC0" rx="22" opacity="0.2"/>
+  <rect x="540" y="200" width="200" height="45" fill="none" stroke="#3DCBC0" stroke-width="2" rx="22"/>
+  <text x="640" y="220" text-anchor="middle" fill="#0C2340" font-size="13" font-weight="700">Рестораны-партнёры</text>
+  <text x="640" y="237" text-anchor="middle" fill="#0C2340" font-size="10">Высокое вл. / Высокий инт.</text>
+
+  <!-- Star indicator -->
+  <text x="520" y="215" fill="#3DCBC0" font-size="18">★</text>
+
+  <!-- Quadrant 3: Low Influence + Low Interest (bottom-left) -->
+  <rect x="125" y="355" width="340" height="240" fill="#D4D8DD" rx="12" opacity="0.15"/>
+  <text x="295" y="390" text-anchor="middle" fill="#999" font-size="16" font-weight="700">МОНИТОРИТЬ</text>
+  <text x="295" y="412" text-anchor="middle" fill="#999" font-size="12">Минимум усилий.</text>
+  <text x="295" y="428" text-anchor="middle" fill="#999" font-size="12">Отслеживать изменение позиции.</text>
+
+  <!-- Example: Competitors -->
+  <rect x="200" y="460" width="130" height="45" fill="#D4D8DD" rx="22" opacity="0.3"/>
+  <rect x="200" y="460" width="130" height="45" fill="none" stroke="#999" stroke-width="1.5" rx="22"/>
+  <text x="265" y="480" text-anchor="middle" fill="#666" font-size="13" font-weight="600">Конкуренты</text>
+  <text x="265" y="497" text-anchor="middle" fill="#999" font-size="10">Среднее вл. / Низкий инт.</text>
+
+  <!-- Quadrant 4: Low Influence + High Interest (bottom-right) -->
+  <rect x="475" y="355" width="340" height="240" fill="#0C2340" rx="12" opacity="0.05"/>
+  <text x="645" y="390" text-anchor="middle" fill="#0C2340" font-size="16" font-weight="700">ДЕРЖАТЬ В КУРСЕ</text>
+  <text x="645" y="412" text-anchor="middle" fill="#666" font-size="12">Информировать, собирать</text>
+  <text x="645" y="428" text-anchor="middle" fill="#666" font-size="12">обратную связь.</text>
+
+  <!-- Example: Users -->
+  <rect x="540" y="450" width="160" height="45" fill="#0C2340" rx="22" opacity="0.08"/>
+  <rect x="540" y="450" width="160" height="45" fill="none" stroke="#0C2340" stroke-width="1.5" rx="22"/>
+  <text x="620" y="470" text-anchor="middle" fill="#0C2340" font-size="13" font-weight="600">Пользователи</text>
+  <text x="620" y="487" text-anchor="middle" fill="#666" font-size="10">Среднее вл. / Высокий инт.</text>
+
+  <!-- Example: Couriers -->
+  <rect x="560" y="510" width="130" height="45" fill="#0C2340" rx="22" opacity="0.08"/>
+  <rect x="560" y="510" width="130" height="45" fill="none" stroke="#0C2340" stroke-width="1.5" rx="22"/>
+  <text x="625" y="530" text-anchor="middle" fill="#0C2340" font-size="13" font-weight="600">Курьеры</text>
+  <text x="625" y="547" text-anchor="middle" fill="#666" font-size="10">Среднее вл. / Высокий инт.</text>
+
+  <!-- Context note -->
+  <rect x="50" y="660" width="800" height="30" fill="none"/>
+  <text x="450" y="678" text-anchor="middle" fill="#99ADCF" font-size="11">Пример: сервис доставки еды | 514-CM-MIPT | Занятие 5</text>
+
+  <!-- Legend note at top-right -->
+  <text x="850" y="85" text-anchor="end" fill="#999" font-size="10">★ = ключевой стейкхолдер</text>
+</svg>

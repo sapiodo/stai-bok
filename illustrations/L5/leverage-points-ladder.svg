@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Inter, 'SF Pro Display', -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#F8FFF2" rx="12"/>
+
+  <!-- Header -->
+  <rect width="1200" height="75" fill="#0C2340" rx="12"/>
+  <rect y="65" width="1200" height="12" fill="#0C2340"/>
+  <text x="600" y="35" text-anchor="middle" fill="#F8FFF2" font-size="26" font-weight="700">LEVERAGE POINTS — 5 УРОВНЕЙ РЫЧАГА</text>
+  <text x="600" y="58" text-anchor="middle" fill="#99ADCF" font-size="13">Где вмешаться в систему? Донелла Медоуз (1999)</text>
+
+  <!-- Staircase visualization - ascending steps from bottom-left to top-right -->
+
+  <!-- Step 1: Parameters (bottom) -->
+  <rect x="60" y="700" width="200" height="110" fill="#D4D8DD" rx="8" opacity="0.4"/>
+  <rect x="60" y="700" width="200" height="110" fill="none" stroke="#999" stroke-width="2" rx="8"/>
+  <circle cx="90" cy="730" r="16" fill="#999"/>
+  <text x="90" y="735" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">1</text>
+  <text x="120" y="735" fill="#0C2340" font-size="16" font-weight="700">ПАРАМЕТРЫ</text>
+  <text x="75" y="758" fill="#555" font-size="12">Числа, константы, бюджеты</text>
+  <text x="75" y="778" fill="#777" font-size="11" font-style="italic">Бюджет +10%</text>
+  <text x="75" y="795" fill="#777" font-size="11" font-style="italic">Ещё 2 разработчика</text>
+
+  <!-- Strength indicator -->
+  <rect x="70" y="700" width="4" height="110" fill="#999" rx="2"/>
+
+  <!-- Arrow up from step 1 to 2 -->
+  <line x1="260" y1="720" x2="300" y2="620" stroke="#99ADCF" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Step 2: Buffers/Stocks -->
+  <rect x="280" y="580" width="200" height="120" fill="#99ADCF" rx="8" opacity="0.2"/>
+  <rect x="280" y="580" width="200" height="120" fill="none" stroke="#99ADCF" stroke-width="2" rx="8"/>
+  <circle cx="310" cy="610" r="16" fill="#99ADCF"/>
+  <text x="310" y="615" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">2</text>
+  <text x="340" y="615" fill="#0C2340" font-size="16" font-weight="700">БУФЕРЫ</text>
+  <text x="295" y="640" fill="#555" font-size="12">Stocks — накопления,</text>
+  <text x="295" y="656" fill="#555" font-size="12">запасы прочности</text>
+  <text x="295" y="680" fill="#777" font-size="11" font-style="italic">Cash reserve, техдолг</text>
+
+  <rect x="290" y="580" width="4" height="120" fill="#99ADCF" rx="2"/>
+
+  <!-- Arrow up from 2 to 3 -->
+  <line x1="480" y1="600" x2="520" y2="490" stroke="#99ADCF" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Step 3: Structure -->
+  <rect x="500" y="440" width="220" height="140" fill="#0C2340" rx="8" opacity="0.1"/>
+  <rect x="500" y="440" width="220" height="140" fill="none" stroke="#0C2340" stroke-width="2" rx="8"/>
+  <circle cx="530" cy="470" r="16" fill="#0C2340"/>
+  <text x="530" y="475" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">3</text>
+  <text x="560" y="475" fill="#0C2340" font-size="16" font-weight="700">СТРУКТУРА</text>
+  <text x="515" y="500" fill="#555" font-size="12">Правила, информационные</text>
+  <text x="515" y="516" fill="#555" font-size="12">потоки, самоорганизация</text>
+  <text x="515" y="542" fill="#777" font-size="11" font-style="italic">Прозрачные метрики</text>
+  <text x="515" y="558" fill="#777" font-size="11" font-style="italic">Новые правила решений</text>
+  <text x="515" y="574" fill="#777" font-size="11" font-style="italic">Автономия команд</text>
+
+  <rect x="510" y="440" width="4" height="140" fill="#0C2340" rx="2"/>
+
+  <!-- Arrow up from 3 to 4 -->
+  <line x1="720" y1="460" x2="760" y2="370" stroke="#F7AF22" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Step 4: Goals -->
+  <rect x="740" y="300" width="200" height="130" fill="#F7AF22" rx="8" opacity="0.15"/>
+  <rect x="740" y="300" width="200" height="130" fill="none" stroke="#F7AF22" stroke-width="2" rx="8"/>
+  <circle cx="770" cy="330" r="16" fill="#F7AF22"/>
+  <text x="770" y="335" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">4</text>
+  <text x="800" y="335" fill="#0C2340" font-size="16" font-weight="700">ЦЕЛИ</text>
+  <text x="755" y="360" fill="#555" font-size="12">К чему система стремится:</text>
+  <text x="755" y="376" fill="#555" font-size="12">KPI, миссия, стратегия</text>
+  <text x="755" y="402" fill="#777" font-size="11" font-style="italic">«Максимизировать выручку»</text>
+  <text x="755" y="418" fill="#777" font-size="11" font-style="italic">vs «Создать ценность»</text>
+
+  <rect x="750" y="300" width="4" height="130" fill="#F7AF22" rx="2"/>
+
+  <!-- Arrow up from 4 to 5 -->
+  <line x1="940" y1="320" x2="980" y2="230" stroke="#e94560" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Step 5: Paradigms (top) -->
+  <rect x="960" y="160" width="210" height="130" fill="#e94560" rx="8" opacity="0.12"/>
+  <rect x="960" y="160" width="210" height="130" fill="none" stroke="#e94560" stroke-width="2.5" rx="8"/>
+  <circle cx="990" cy="190" r="16" fill="#e94560"/>
+  <text x="990" y="195" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">5</text>
+  <text x="1020" y="195" fill="#0C2340" font-size="16" font-weight="700">ПАРАДИГМЫ</text>
+  <text x="975" y="220" fill="#555" font-size="12">Ментальные модели,</text>
+  <text x="975" y="236" fill="#555" font-size="12">убеждения, мировоззрение</text>
+  <text x="975" y="262" fill="#777" font-size="11" font-style="italic">«Пользователи = трафик»</text>
+  <text x="975" y="278" fill="#777" font-size="11" font-style="italic">vs «Пользователи = сообщество»</text>
+
+  <rect x="970" y="160" width="4" height="130" fill="#e94560" rx="2"/>
+
+  <!-- Big arrow: WEAK → STRONG -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0C2340"/>
+    </marker>
+  </defs>
+  <line x1="55" y1="810" x2="55" y2="170" stroke="#0C2340" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="35" y="810" fill="#999" font-size="11" font-weight="600" transform="rotate(-90, 35, 600)">СЛАБЫЙ РЫЧАГ</text>
+  <text x="35" y="280" fill="#e94560" font-size="11" font-weight="600" transform="rotate(-90, 35, 280)">СИЛЬНЫЙ РЫЧАГ</text>
+
+  <!-- Paradox box -->
+  <rect x="60" y="830" width="530" height="55" fill="#0C2340" rx="8" opacity="0.06"/>
+  <text x="80" y="852" fill="#0C2340" font-size="14" font-weight="700">ПАРАДОКС РЫЧАГА</text>
+  <text x="80" y="872" fill="#555" font-size="12">Чем сильнее рычаг — тем сложнее его использовать.</text>
+  <text x="80" y="886" fill="#555" font-size="12">Параметры → легко. Парадигмы → годы работы.</text>
+
+  <!-- Strategy box -->
+  <rect x="620" y="830" width="550" height="55" fill="#3DCBC0" rx="8" opacity="0.1"/>
+  <text x="640" y="852" fill="#0C2340" font-size="14" font-weight="700">СТРАТЕГИЯ</text>
+  <text x="640" y="872" fill="#555" font-size="12">Хорошая стратегия — портфель вмешательств</text>
+  <text x="640" y="886" fill="#555" font-size="12">на разных уровнях: Quick Wins + стратегические проекты</text>
+
+  <!-- Footer -->
+  <text x="600" y="898" text-anchor="middle" fill="#99ADCF" font-size="10">514-CM-MIPT | Системное и стратегическое мышление | Занятие 5 | Источник: Meadows (1999)</text>
+</svg>

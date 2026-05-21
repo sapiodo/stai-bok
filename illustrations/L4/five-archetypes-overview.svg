@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Inter, 'SF Pro Display', -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0C2340"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#F8FFF2" rx="12"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="url(#headerGrad)" rx="12"/>
+  <rect y="70" width="1200" height="12" fill="url(#headerGrad)"/>
+  <text x="600" y="38" text-anchor="middle" fill="#F8FFF2" font-size="28" font-weight="700">5 СИСТЕМНЫХ АРХЕТИПОВ</text>
+  <text x="600" y="62" text-anchor="middle" fill="#99ADCF" font-size="14">Паттерны поведения систем — Peter Senge, «The Fifth Discipline» (1990)</text>
+
+  <!-- Column Headers -->
+  <rect x="30" y="95" width="1140" height="35" fill="#0C2340" rx="6" opacity="0.08"/>
+  <text x="60" y="118" fill="#0C2340" font-size="12" font-weight="700">АРХЕТИП</text>
+  <text x="310" y="118" fill="#0C2340" font-size="12" font-weight="700">СУТЬ</text>
+  <text x="600" y="118" fill="#0C2340" font-size="12" font-weight="700">ПЕТЛИ</text>
+  <text x="750" y="118" fill="#0C2340" font-size="12" font-weight="700">ДИАГНОСТИЧЕСКИЙ СИГНАЛ</text>
+  <text x="1020" y="118" fill="#0C2340" font-size="12" font-weight="700">ТОЧКА РЫЧАГА</text>
+
+  <!-- Archetype 1: Limits to Growth -->
+  <rect x="30" y="140" width="1140" height="130" fill="#ffffff" rx="8" stroke="#99ADCF" stroke-width="1"/>
+  <rect x="30" y="140" width="8" height="130" fill="#3DCBC0" rx="4"/>
+  <text x="55" y="170" fill="#0C2340" font-size="11" font-weight="600" opacity="0.5">01</text>
+  <text x="55" y="195" fill="#0C2340" font-size="16" font-weight="700">Limits to</text>
+  <text x="55" y="215" fill="#0C2340" font-size="16" font-weight="700">Growth</text>
+  <text x="55" y="245" fill="#3DCBC0" font-size="13" font-weight="600">«Пределы роста»</text>
+
+  <text x="310" y="175" fill="#333" font-size="13">R-петля роста упирается</text>
+  <text x="310" y="195" fill="#333" font-size="13">в B-петлю ограничения.</text>
+  <text x="310" y="215" fill="#333" font-size="13">Чем сильнее давишь на</text>
+  <text x="310" y="235" fill="#333" font-size="13">газ — тем сильнее тормоз.</text>
+
+  <!-- CLD icon for LtG -->
+  <circle cx="635" cy="185" r="18" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="635" y="190" text-anchor="middle" fill="#3DCBC0" font-size="14" font-weight="700">R</text>
+  <circle cx="635" cy="235" r="18" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="635" y="240" text-anchor="middle" fill="#F7AF22" font-size="14" font-weight="700">B</text>
+  <line x1="648" y1="198" x2="648" y2="218" stroke="#666" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <text x="750" y="185" fill="#0C2340" font-size="14" font-style="italic">«Раньше это работало,</text>
+  <text x="750" y="205" fill="#0C2340" font-size="14" font-style="italic">а теперь перестало»</text>
+  <rect x="750" y="222" width="200" height="28" fill="#e94560" rx="4" opacity="0.1"/>
+  <text x="758" y="241" fill="#e94560" font-size="12">Ловушка: «давить сильнее»</text>
+
+  <rect x="1010" y="170" width="150" height="40" fill="#3DCBC0" rx="6" opacity="0.15"/>
+  <text x="1085" y="186" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">Работать с</text>
+  <text x="1085" y="202" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">ограничением</text>
+
+  <!-- Archetype 2: Shifting the Burden -->
+  <rect x="30" y="280" width="1140" height="130" fill="#ffffff" rx="8" stroke="#99ADCF" stroke-width="1"/>
+  <rect x="30" y="280" width="8" height="130" fill="#0C2340" rx="4"/>
+  <text x="55" y="310" fill="#0C2340" font-size="11" font-weight="600" opacity="0.5">02</text>
+  <text x="55" y="335" fill="#0C2340" font-size="16" font-weight="700">Shifting the</text>
+  <text x="55" y="355" fill="#0C2340" font-size="16" font-weight="700">Burden</text>
+  <text x="55" y="385" fill="#0C2340" font-size="13" font-weight="600">«Подмена проблемы»</text>
+
+  <text x="310" y="315" fill="#333" font-size="13">Quick fix снимает симптом,</text>
+  <text x="310" y="335" fill="#333" font-size="13">фундаментальное решение</text>
+  <text x="310" y="355" fill="#333" font-size="13">откладывается. Зависимость</text>
+  <text x="310" y="375" fill="#333" font-size="13">от «костыля» растёт.</text>
+
+  <!-- CLD icon for StB -->
+  <circle cx="615" cy="325" r="15" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="615" y="330" text-anchor="middle" fill="#3DCBC0" font-size="11" font-weight="700">B1</text>
+  <circle cx="655" cy="325" r="15" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="655" y="330" text-anchor="middle" fill="#F7AF22" font-size="11" font-weight="700">B2</text>
+  <circle cx="635" cy="370" r="15" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="635" y="375" text-anchor="middle" fill="#e94560" font-size="11" font-weight="700">R</text>
+
+  <text x="750" y="325" fill="#0C2340" font-size="14" font-style="italic">«Без этого мы</text>
+  <text x="750" y="345" fill="#0C2340" font-size="14" font-style="italic">не можем»</text>
+  <rect x="750" y="362" width="220" height="28" fill="#e94560" rx="4" opacity="0.1"/>
+  <text x="758" y="381" fill="#e94560" font-size="12">Ловушка: «это же работает!»</text>
+
+  <rect x="1010" y="310" width="150" height="40" fill="#3DCBC0" rx="6" opacity="0.15"/>
+  <text x="1085" y="326" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">Усиливать</text>
+  <text x="1085" y="342" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">фундаментальное</text>
+
+  <!-- Archetype 3: Fixes that Fail -->
+  <rect x="30" y="420" width="1140" height="130" fill="#ffffff" rx="8" stroke="#99ADCF" stroke-width="1"/>
+  <rect x="30" y="420" width="8" height="130" fill="#F7AF22" rx="4"/>
+  <text x="55" y="450" fill="#0C2340" font-size="11" font-weight="600" opacity="0.5">03</text>
+  <text x="55" y="475" fill="#0C2340" font-size="16" font-weight="700">Fixes that</text>
+  <text x="55" y="495" fill="#0C2340" font-size="16" font-weight="700">Fail</text>
+  <text x="55" y="525" fill="#F7AF22" font-size="13" font-weight="600">«Решения, которые</text>
+  <text x="55" y="540" fill="#F7AF22" font-size="13" font-weight="600">не работают»</text>
+
+  <text x="310" y="455" fill="#333" font-size="13">Quick fix снимает симптом.</text>
+  <text x="310" y="475" fill="#333" font-size="13">С задержкой — непредвиденные</text>
+  <text x="310" y="495" fill="#333" font-size="13">последствия возвращают</text>
+  <text x="310" y="515" fill="#333" font-size="13">проблему в усиленном виде.</text>
+
+  <!-- CLD icon for FtF -->
+  <circle cx="625" cy="470" r="15" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="625" y="475" text-anchor="middle" fill="#3DCBC0" font-size="11" font-weight="700">B</text>
+  <circle cx="645" cy="510" r="15" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="645" y="515" text-anchor="middle" fill="#e94560" font-size="11" font-weight="700">R</text>
+  <line x1="637" y1="485" x2="643" y2="495" stroke="#666" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <text x="750" y="465" fill="#0C2340" font-size="14" font-style="italic">«Проблема вернулась,</text>
+  <text x="750" y="485" fill="#0C2340" font-size="14" font-style="italic">но хуже»</text>
+  <rect x="750" y="502" width="220" height="28" fill="#e94560" rx="4" opacity="0.1"/>
+  <text x="758" y="521" fill="#e94560" font-size="12">Ловушка: «мы это уже решили»</text>
+
+  <rect x="1010" y="450" width="150" height="46" fill="#3DCBC0" rx="6" opacity="0.15"/>
+  <text x="1085" y="466" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">Прогнозировать</text>
+  <text x="1085" y="482" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">последствия</text>
+  <text x="1085" y="492" text-anchor="middle" fill="#0C2340" font-size="10">2-го и 3-го порядка</text>
+
+  <!-- Archetype 4: Eroding Goals -->
+  <rect x="30" y="560" width="1140" height="130" fill="#ffffff" rx="8" stroke="#99ADCF" stroke-width="1"/>
+  <rect x="30" y="560" width="8" height="130" fill="#e94560" rx="4"/>
+  <text x="55" y="590" fill="#0C2340" font-size="11" font-weight="600" opacity="0.5">04</text>
+  <text x="55" y="615" fill="#0C2340" font-size="16" font-weight="700">Eroding</text>
+  <text x="55" y="635" fill="#0C2340" font-size="16" font-weight="700">Goals</text>
+  <text x="55" y="665" fill="#e94560" font-size="13" font-weight="600">«Размывание целей»</text>
+
+  <text x="310" y="595" fill="#333" font-size="13">Два пути: подтянуть реаль-</text>
+  <text x="310" y="615" fill="#333" font-size="13">ность (долго) или снизить</text>
+  <text x="310" y="635" fill="#333" font-size="13">цель (мгновенно). Под дав-</text>
+  <text x="310" y="655" fill="#333" font-size="13">лением — снижают. Деградация.</text>
+
+  <!-- CLD icon for EG -->
+  <circle cx="625" cy="610" r="15" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="625" y="615" text-anchor="middle" fill="#F7AF22" font-size="11" font-weight="700">B1</text>
+  <circle cx="645" cy="650" r="15" fill="none" stroke="#F7AF22" stroke-width="2"/>
+  <text x="645" y="655" text-anchor="middle" fill="#F7AF22" font-size="11" font-weight="700">B2</text>
+
+  <text x="750" y="605" fill="#0C2340" font-size="14" font-style="italic">«Раньше мы ставили</text>
+  <text x="750" y="625" fill="#0C2340" font-size="14" font-style="italic">более высокие цели»</text>
+  <rect x="750" y="642" width="220" height="28" fill="#e94560" rx="4" opacity="0.1"/>
+  <text x="758" y="661" fill="#e94560" font-size="12">Ловушка: «обстоятельства особые»</text>
+
+  <rect x="1010" y="590" width="150" height="40" fill="#3DCBC0" rx="6" opacity="0.15"/>
+  <text x="1085" y="606" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">Держать цель</text>
+  <text x="1085" y="622" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">фиксированной</text>
+
+  <!-- Archetype 5: Success to the Successful -->
+  <rect x="30" y="700" width="1140" height="130" fill="#ffffff" rx="8" stroke="#99ADCF" stroke-width="1"/>
+  <rect x="30" y="700" width="8" height="130" fill="#99ADCF" rx="4"/>
+  <text x="55" y="730" fill="#0C2340" font-size="11" font-weight="600" opacity="0.5">05</text>
+  <text x="55" y="755" fill="#0C2340" font-size="16" font-weight="700">Success to</text>
+  <text x="55" y="775" fill="#0C2340" font-size="16" font-weight="700">the Successful</text>
+  <text x="55" y="805" fill="#99ADCF" font-size="13" font-weight="600">«Успех к успешным»</text>
+
+  <text x="310" y="735" fill="#333" font-size="13">Два направления делят</text>
+  <text x="310" y="755" fill="#333" font-size="13">общий ресурс (zero-sum).</text>
+  <text x="310" y="775" fill="#333" font-size="13">Успешный получает больше →</text>
+  <text x="310" y="795" fill="#333" font-size="13">ещё успешнее. Разрыв растёт.</text>
+
+  <!-- CLD icon for StS -->
+  <circle cx="625" cy="745" r="15" fill="none" stroke="#3DCBC0" stroke-width="2"/>
+  <text x="625" y="750" text-anchor="middle" fill="#3DCBC0" font-size="11" font-weight="700">R1</text>
+  <circle cx="645" cy="785" r="15" fill="none" stroke="#e94560" stroke-width="2"/>
+  <text x="645" y="790" text-anchor="middle" fill="#e94560" font-size="11" font-weight="700">R2</text>
+  <text x="660" y="767" fill="#666" font-size="10">zero-sum</text>
+
+  <text x="750" y="745" fill="#0C2340" font-size="14" font-style="italic">«Одно направление</text>
+  <text x="750" y="765" fill="#0C2340" font-size="14" font-style="italic">всегда выигрывает»</text>
+  <rect x="750" y="782" width="220" height="28" fill="#e94560" rx="4" opacity="0.1"/>
+  <text x="758" y="801" fill="#e94560" font-size="12">Ловушка: «метрики не врут!»</text>
+
+  <rect x="1010" y="730" width="150" height="40" fill="#3DCBC0" rx="6" opacity="0.15"/>
+  <text x="1085" y="746" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">Независимые</text>
+  <text x="1085" y="762" text-anchor="middle" fill="#0C2340" font-size="12" font-weight="600">критерии оценки</text>
+
+  <!-- Footer -->
+  <text x="600" y="862" text-anchor="middle" fill="#99ADCF" font-size="11">514-CM-MIPT | Системное и стратегическое мышление | Занятие 4</text>
+  <text x="600" y="880" text-anchor="middle" fill="#99ADCF" font-size="10">Источник: Senge «The Fifth Discipline» (1990), Kim «Systems Archetypes I» (1992)</text>
+</svg>

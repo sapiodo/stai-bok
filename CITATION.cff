@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this BoK in research, teaching, or derivative work, please cite it."
+type: dataset
+title: "Systems Thinking with AI — Body of Knowledge"
+abstract: >
+  Структурированная база знаний по системному и стратегическому мышлению
+  с двумя интерактивными навыками для Claude Code: orchestration pipeline
+  решения проблемы и concept-study на базе 5-слойной структуры Learning Object.
+authors:
+  - family-names: Безуглый
+    given-names: Дмитрий
+    affiliation: Master Strategy
+version: "1.0"
+date-released: 2026-05-21
+license: CC-BY-NC-SA-4.0
+keywords:
+  - systems-thinking
+  - strategic-thinking
+  - cynefin
+  - iceberg-model
+  - causal-loop-diagram
+  - system-archetypes
+  - leverage-points
+  - meadows
+  - body-of-knowledge
+  - claude-code

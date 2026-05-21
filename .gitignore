@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.obsidian/
+
+# Личные ПЗ студента (не должны попадать в репо)
+*-ПЗ-*.md
+*-Problem-Analysis.md
