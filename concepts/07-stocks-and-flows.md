@@ -1,9 +1,22 @@
 ---
 slug: stocks-and-flows
+display_id: STAI-K-Stocks-And-Flows
+bok_id: stai-bok
 title: Накопления и потоки (Stocks & Flows)
+node_type: knowledge
+tier: 1
 order: 07
 difficulty: medium
-related: [causal-loop-diagrams, leverage-points]
+related:
+- {to: causal-loop-diagrams, relation: extends}
+- {to: leverage-points, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/07-stocks-and-flows.md
+external_mirrors:
+- bok: ST_BoK
+  slug: stocks-and-flows
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Накопления и потоки (Stocks & Flows)

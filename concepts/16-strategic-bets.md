@@ -1,9 +1,17 @@
 ---
 slug: strategic-bets
+display_id: STAI-K-Strategic-Bets
+bok_id: stai-bok
 title: Стратегические ставки (ОНМС)
+node_type: knowledge
+tier: 2
 order: 16
 difficulty: high
-related: [creative-tension, scenario-thinking, hypothesis-portfolio]
+related:
+- {to: creative-tension, relation: see-also}
+- {to: scenario-thinking, relation: see-also}
+- {to: hypothesis-portfolio, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/16-strategic-bets.md
 ---
 
 # Стратегические ставки (ОНМС)

@@ -1,9 +1,16 @@
 ---
 slug: stakeholder-map
+display_id: STAI-K-Stakeholder-Map
+bok_id: stai-bok
 title: Карта стейкхолдеров (Влияние × Интерес)
+node_type: knowledge
+tier: 2
 order: 09
 difficulty: low
-related: [problem-formulation, hypothesis-portfolio]
+related:
+- {to: problem-formulation, relation: see-also}
+- {to: hypothesis-portfolio, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/09-stakeholder-map.md
 ---
 
 # Карта стейкхолдеров (Влияние × Интерес)

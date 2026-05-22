@@ -1,9 +1,17 @@
 ---
 slug: hypothesis-portfolio
+display_id: STAI-K-Hypothesis-Portfolio
+bok_id: stai-bok
 title: Портфель гипотез
+node_type: knowledge
+tier: 2
 order: 11
 difficulty: medium
-related: [leverage-points, effort-impact, experiment-design]
+related:
+- {to: leverage-points, relation: depends-on}
+- {to: effort-impact, relation: depends-on}
+- {to: experiment-design, relation: depends-on}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/11-hypothesis-portfolio.md
 ---
 
 # Портфель гипотез

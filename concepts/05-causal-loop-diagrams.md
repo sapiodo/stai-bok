@@ -1,9 +1,23 @@
 ---
 slug: causal-loop-diagrams
+display_id: STAI-K-Causal-Loop-Diagrams
+bok_id: stai-bok
 title: Каузальные петли обратной связи (CLD)
+node_type: knowledge
+tier: 1
 order: 05
 difficulty: high
-related: [iceberg-model, system-archetypes, stocks-and-flows]
+related:
+- {to: iceberg-model, relation: depends-on}
+- {to: system-archetypes, relation: illustrates}
+- {to: stocks-and-flows, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/05-causal-loop-diagrams.md
+external_mirrors:
+- bok: ST_BoK
+  slug: cld-causal-loop-diagrams
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Каузальные петли обратной связи (CLD)

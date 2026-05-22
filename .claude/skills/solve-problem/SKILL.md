@@ -7,6 +7,12 @@ description: >-
   «системный анализ», «найти решение», «5 почему», «iceberg», «архетип»,
   «точка рычага», «pipeline проблемы». Не запускается при запросе изучить
   отдельную концепцию — для этого skill `study-concept`.
+slug: solve-problem
+display_id: STAI-S-Solve-Problem
+bok_id: stai-bok
+node_type: skill
+kind: simple
+dps_level: L3
 ---
 
 # Skill: системное решение проблемы (orchestration)

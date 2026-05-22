@@ -1,9 +1,22 @@
 ---
 slug: scenario-thinking
+display_id: STAI-K-Scenario-Thinking
+bok_id: stai-bok
 title: Сценарное мышление (Scenario Thinking)
+node_type: knowledge
+tier: 2
 order: 15
 difficulty: medium
-related: [creative-tension, strategic-bets]
+related:
+- {to: creative-tension, relation: see-also}
+- {to: strategic-bets, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/15-scenario-thinking.md
+external_mirrors:
+- bok: ST_BoK
+  slug: scenario-thinking
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Сценарное мышление (Scenario Thinking)

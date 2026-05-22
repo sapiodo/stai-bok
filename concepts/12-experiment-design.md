@@ -1,9 +1,16 @@
 ---
 slug: experiment-design
+display_id: STAI-K-Experiment-Design
+bok_id: stai-bok
 title: Дизайн эксперимента (Plan / Test / Metric / Decision)
+node_type: knowledge
+tier: 2
 order: 12
 difficulty: medium
-related: [hypothesis-portfolio, evaporating-cloud]
+related:
+- {to: hypothesis-portfolio, relation: depends-on}
+- {to: evaporating-cloud, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/12-experiment-design.md
 ---
 
 # Дизайн эксперимента (Plan / Test / Metric / Decision)

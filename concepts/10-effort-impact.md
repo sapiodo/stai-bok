@@ -1,9 +1,16 @@
 ---
 slug: effort-impact
+display_id: STAI-K-Effort-Impact
+bok_id: stai-bok
 title: Матрица Effort / Impact
+node_type: knowledge
+tier: 2
 order: 10
 difficulty: low
-related: [leverage-points, hypothesis-portfolio]
+related:
+- {to: leverage-points, relation: see-also}
+- {to: hypothesis-portfolio, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/10-effort-impact.md
 ---
 
 # Матрица Effort / Impact

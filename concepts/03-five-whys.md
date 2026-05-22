@@ -1,9 +1,24 @@
 ---
 slug: five-whys
+display_id: STAI-K-Five-Whys
+bok_id: stai-bok
 title: Метод «5 Почему»
+node_type: knowledge
+tier: 1
 order: 03
 difficulty: low
-related: [problem-formulation, iceberg-model, causal-loop-diagrams, cynefin]
+related:
+- {to: problem-formulation, relation: see-also}
+- {to: iceberg-model, relation: depends-on}
+- {to: causal-loop-diagrams, relation: see-also}
+- {to: cynefin, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/03-five-whys.md
+external_mirrors:
+- bok: ST_BoK
+  slug: symptom-problem-rootcause
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Метод «5 Почему»

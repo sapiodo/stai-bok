@@ -1,9 +1,24 @@
 ---
 slug: problem-formulation
+display_id: STAI-K-Problem-Formulation
+bok_id: stai-bok
 title: Формулирование проблем
+node_type: knowledge
+tier: 1
 order: 02
 difficulty: low
-related: [cynefin, five-whys, iceberg-model, three-problem-archetypes]
+related:
+- {to: cynefin, relation: depends-on}
+- {to: five-whys, relation: depends-on}
+- {to: iceberg-model, relation: see-also}
+- {to: three-problem-archetypes, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/02-problem-formulation.md
+external_mirrors:
+- bok: ST_BoK
+  slug: problematization
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Формулирование проблем

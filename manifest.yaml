@@ -1,0 +1,239 @@
+# stai-bok Body of Knowledge manifest
+# Level 1 migration per DM-536-26 v2 (2026-05-22)
+# Companion ADR: think_do/docs/decisions/2026-05-21-external-bok-import.md
+
+bok:
+  id: stai-bok
+  title: Systems Thinking with AI — Body of Knowledge
+  description: |
+    Public CC BY-NC-SA subset методологии 12-CM-STAI / 514-CM-MIPT.
+    16 концепт-карточек по 5-слойной Learning Object структуре +
+    2 native Claude Code skills (/solve-problem orchestration +
+    /study-concept LO traversal) + lessons L1-L7 + self-tests Q2-Q7.
+  type: system
+  author: Дмитрий Безуглый
+  language: ru
+  version: '1.1'
+  license: CC-BY-NC-SA-4.0
+  source_repo: https://github.com/sapiodo/stai-bok
+  source_course: 514-CM-MIPT (Системное и стратегическое мышление, МФТИ)
+
+# Wave 5 update (2026-05-22): Level 1 migration per DM-536-26 v2 — frontmatter
+# fields bok_id / node_type / display_id / canonical_source / related-as-objects
+# applied к 16 concepts + 2 skills. Manifest created с edges derived из related.
+
+# Cross-link с canonical internal BoK Дмитрия (ST_BoK в платформе Думай.Делай).
+external_boks:
+- id: ST_BoK
+  title: Системное мышление (canonical)
+  url: github.com/cless75/think_do (private)
+  relation: canonical_superset_in_master_strategy
+  visibility: private_subscription
+  notes: |
+    ST_BoK = canonical internal version Дмитрия с adaptations (multistakeholder
+    Iceberg, two-problems for product work, ОНМС, etc.). stai-bok = public subset.
+    Каждый overlapping concept имеет external_mirrors в frontmatter обоих сторон.
+
+slug_mapping:
+  STAI-K-Causal-Loop-Diagrams: causal-loop-diagrams
+  STAI-K-Creative-Tension: creative-tension
+  STAI-K-Cynefin: cynefin
+  STAI-K-Effort-Impact: effort-impact
+  STAI-K-Evaporating-Cloud: evaporating-cloud
+  STAI-K-Experiment-Design: experiment-design
+  STAI-K-Five-Whys: five-whys
+  STAI-K-Hypothesis-Portfolio: hypothesis-portfolio
+  STAI-K-Iceberg-Model: iceberg-model
+  STAI-K-Leverage-Points: leverage-points
+  STAI-K-Problem-Formulation: problem-formulation
+  STAI-K-Scenario-Thinking: scenario-thinking
+  STAI-K-Stakeholder-Map: stakeholder-map
+  STAI-K-Stocks-And-Flows: stocks-and-flows
+  STAI-K-Strategic-Bets: strategic-bets
+  STAI-K-System-Archetypes: system-archetypes
+  STAI-S-Solve-Problem: solve-problem
+  STAI-S-Study-Concept: study-concept
+
+# DPS levels (simplified vs ST_BoK — stai-bok skills monolithic, Level 2
+# decomposition в backlog).
+dps_levels:
+  L0:
+    name: Retrieval
+    description: Прямой ответ из концепт-карточки
+    skills: []
+  L2:
+    name: Concept Study
+    description: 5-слойное прохождение одной концепции
+    skills:
+    - STAI-S-Study-Concept
+  L3:
+    name: Deep System
+    description: Полный 4-фазный pipeline решения проблемы
+    skills:
+    - STAI-S-Solve-Problem
+
+# Router — stai-bok НЕ имеет router skill (manual choice через slash command).
+router:
+  slug: null
+  fallback_level: L2
+  notes: 'Stai-bok = local Claude Code BoK; пользователь явно выбирает /solve-problem или /study-concept <slug>. Router skill = backlog для будущей DPS Engine integration через platform import.'
+
+# Edges derived из related-as-objects (Wave 5 migration). Все relations
+# из whitelist DM-536-26 v2 (see-also, depends-on, extends, derives-from,
+# delegate-to, illustrates, contradicts, related).
+edges:
+- from: cynefin
+  to: problem-formulation
+  relation: see-also
+- from: cynefin
+  to: three-problem-archetypes
+  relation: see-also
+- from: cynefin
+  to: system-archetypes
+  relation: see-also
+- from: problem-formulation
+  to: cynefin
+  relation: depends-on
+- from: problem-formulation
+  to: five-whys
+  relation: depends-on
+- from: problem-formulation
+  to: iceberg-model
+  relation: see-also
+- from: problem-formulation
+  to: three-problem-archetypes
+  relation: see-also
+- from: five-whys
+  to: problem-formulation
+  relation: see-also
+- from: five-whys
+  to: iceberg-model
+  relation: depends-on
+- from: five-whys
+  to: causal-loop-diagrams
+  relation: see-also
+- from: five-whys
+  to: cynefin
+  relation: see-also
+- from: iceberg-model
+  to: problem-formulation
+  relation: depends-on
+- from: iceberg-model
+  to: causal-loop-diagrams
+  relation: depends-on
+- from: iceberg-model
+  to: system-archetypes
+  relation: see-also
+- from: iceberg-model
+  to: leverage-points
+  relation: see-also
+- from: iceberg-model
+  to: five-whys
+  relation: see-also
+- from: causal-loop-diagrams
+  to: iceberg-model
+  relation: depends-on
+- from: causal-loop-diagrams
+  to: system-archetypes
+  relation: illustrates
+- from: causal-loop-diagrams
+  to: stocks-and-flows
+  relation: see-also
+- from: system-archetypes
+  to: causal-loop-diagrams
+  relation: depends-on
+- from: system-archetypes
+  to: leverage-points
+  relation: see-also
+- from: stocks-and-flows
+  to: causal-loop-diagrams
+  relation: extends
+- from: stocks-and-flows
+  to: leverage-points
+  relation: see-also
+- from: leverage-points
+  to: iceberg-model
+  relation: see-also
+- from: leverage-points
+  to: system-archetypes
+  relation: see-also
+- from: leverage-points
+  to: hypothesis-portfolio
+  relation: depends-on
+- from: stakeholder-map
+  to: problem-formulation
+  relation: see-also
+- from: stakeholder-map
+  to: hypothesis-portfolio
+  relation: see-also
+- from: effort-impact
+  to: leverage-points
+  relation: see-also
+- from: effort-impact
+  to: hypothesis-portfolio
+  relation: see-also
+- from: hypothesis-portfolio
+  to: leverage-points
+  relation: depends-on
+- from: hypothesis-portfolio
+  to: effort-impact
+  relation: depends-on
+- from: hypothesis-portfolio
+  to: experiment-design
+  relation: depends-on
+- from: experiment-design
+  to: hypothesis-portfolio
+  relation: depends-on
+- from: experiment-design
+  to: evaporating-cloud
+  relation: see-also
+- from: evaporating-cloud
+  to: problem-formulation
+  relation: see-also
+- from: evaporating-cloud
+  to: hypothesis-portfolio
+  relation: see-also
+- from: evaporating-cloud
+  to: experiment-design
+  relation: see-also
+- from: creative-tension
+  to: system-archetypes
+  relation: contradicts
+- from: creative-tension
+  to: scenario-thinking
+  relation: see-also
+- from: creative-tension
+  to: strategic-bets
+  relation: see-also
+- from: scenario-thinking
+  to: creative-tension
+  relation: see-also
+- from: scenario-thinking
+  to: strategic-bets
+  relation: see-also
+- from: strategic-bets
+  to: creative-tension
+  relation: see-also
+- from: strategic-bets
+  to: scenario-thinking
+  relation: see-also
+- from: strategic-bets
+  to: hypothesis-portfolio
+  relation: see-also
+
+stats:
+  knowledge_nodes: 16
+  skills: 2
+  edges: 46
+  tier_1_concepts: 8
+  tier_2_concepts: 8
+  manifest_version: '1.0'
+  migration_level: 1
+  migration_date: '2026-05-22'
+  driven_by: DM-536-26 v2 (External BoK Import Protocol)
+
+# Wave 5 backlog (после accepted DM-536-26 в ThinkDo):
+# - Level 2 декомпозиция skills (solve-problem → 4 phase-* simple skills;
+#   study-concept → 5 layer-* simple skills)
+# - Level 3 — YAML steps[] с prompt_template для DPS Engine pipeline runtime
+# - Lessons mirror в ST_BoK (Block 4 mirror в обоих, см. Wave 5 plan)

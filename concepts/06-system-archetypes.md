@@ -1,9 +1,22 @@
 ---
 slug: system-archetypes
+display_id: STAI-K-System-Archetypes
+bok_id: stai-bok
 title: Системные архетипы
+node_type: knowledge
+tier: 1
 order: 06
 difficulty: high
-related: [causal-loop-diagrams, leverage-points]
+related:
+- {to: causal-loop-diagrams, relation: depends-on}
+- {to: leverage-points, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/06-system-archetypes.md
+external_mirrors:
+- bok: ST_BoK
+  slug: system-archetypes-senge
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Системные архетипы

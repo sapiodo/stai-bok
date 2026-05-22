@@ -1,9 +1,23 @@
 ---
 slug: leverage-points
+display_id: STAI-K-Leverage-Points
+bok_id: stai-bok
 title: Точки рычага (5 уровней Медоуз)
+node_type: knowledge
+tier: 1
 order: 08
 difficulty: medium
-related: [iceberg-model, system-archetypes, hypothesis-portfolio]
+related:
+- {to: iceberg-model, relation: see-also}
+- {to: system-archetypes, relation: see-also}
+- {to: hypothesis-portfolio, relation: depends-on}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/08-leverage-points.md
+external_mirrors:
+- bok: ST_BoK
+  slug: leverage-points-meadows
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Точки рычага (5 уровней Медоуз)

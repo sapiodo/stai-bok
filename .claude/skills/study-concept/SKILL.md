@@ -7,6 +7,12 @@ description: >-
   «разберём <концепт>», «расскажи про <модель>», «как работает X», «давай
   подробнее про iceberg/CLD/архетипы». Не запускается для полного цикла
   решения проблемы — для этого skill `solve-problem`.
+slug: study-concept
+display_id: STAI-S-Study-Concept
+bok_id: stai-bok
+node_type: skill
+kind: simple
+dps_level: L2
 ---
 
 # Skill: изучение концепции (concept-study)

@@ -1,9 +1,23 @@
 ---
 slug: cynefin
+display_id: STAI-K-Cynefin
+bok_id: stai-bok
 title: Cynefin — фреймворк определения контекста
+node_type: knowledge
+tier: 1
 order: 01
 difficulty: medium
-related: [problem-formulation, three-problem-archetypes, system-archetypes]
+related:
+- {to: problem-formulation, relation: see-also}
+- {to: three-problem-archetypes, relation: see-also}
+- {to: system-archetypes, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/01-cynefin.md
+external_mirrors:
+- bok: ST_BoK
+  slug: cynefin
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Cynefin — фреймворк определения контекста

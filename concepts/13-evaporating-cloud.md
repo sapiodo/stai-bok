@@ -1,9 +1,17 @@
 ---
 slug: evaporating-cloud
+display_id: STAI-K-Evaporating-Cloud
+bok_id: stai-bok
 title: Грозовая туча (Evaporating Cloud)
+node_type: knowledge
+tier: 2
 order: 13
 difficulty: medium
-related: [problem-formulation, hypothesis-portfolio, experiment-design]
+related:
+- {to: problem-formulation, relation: see-also}
+- {to: hypothesis-portfolio, relation: see-also}
+- {to: experiment-design, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/13-evaporating-cloud.md
 ---
 
 # Грозовая туча (Evaporating Cloud)

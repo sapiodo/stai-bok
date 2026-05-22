@@ -1,9 +1,23 @@
 ---
 slug: creative-tension
+display_id: STAI-K-Creative-Tension
+bok_id: stai-bok
 title: Творческое напряжение (Creative Tension)
+node_type: knowledge
+tier: 2
 order: 14
 difficulty: medium
-related: [system-archetypes, scenario-thinking, strategic-bets]
+related:
+- {to: system-archetypes, relation: contradicts}
+- {to: scenario-thinking, relation: see-also}
+- {to: strategic-bets, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/14-creative-tension.md
+external_mirrors:
+- bok: ST_BoK
+  slug: creative-tension
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Творческое напряжение (Creative Tension)

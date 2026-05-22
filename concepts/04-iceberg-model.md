@@ -1,9 +1,25 @@
 ---
 slug: iceberg-model
+display_id: STAI-K-Iceberg-Model
+bok_id: stai-bok
 title: Iceberg Model — модель айсберга
+node_type: knowledge
+tier: 1
 order: 04
 difficulty: medium
-related: [problem-formulation, causal-loop-diagrams, system-archetypes, leverage-points, five-whys]
+related:
+- {to: problem-formulation, relation: depends-on}
+- {to: causal-loop-diagrams, relation: depends-on}
+- {to: system-archetypes, relation: see-also}
+- {to: leverage-points, relation: see-also}
+- {to: five-whys, relation: see-also}
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/concepts/04-iceberg-model.md
+external_mirrors:
+- bok: ST_BoK
+  slug: iceberg-model
+  url: think_do/ST_BoK/knowledge/tier-1-or-2/536-K-<see-manifest>.md
+  relation: public_superset_in_ST_BoK
+  notes: 'stai-bok = CC BY-NC-SA subset; ST_BoK = canonical superset Дмитрия с adaptations'
 ---
 
 # Iceberg Model — модель айсберга
