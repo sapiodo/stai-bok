@@ -11,8 +11,29 @@ slug: study-concept
 display_id: STAI-S-Study-Concept
 bok_id: stai-bok
 node_type: skill
-kind: simple
+kind: pipeline
 dps_level: L2
+steps:
+  - number: 1
+    title: "Layer 1: Знакомство (Recognition)"
+    delegate_to: layer-1-recognition
+    dialogue_point: true
+  - number: 2
+    title: "Layer 2: Понимание (Comprehension)"
+    delegate_to: layer-2-comprehension
+    dialogue_point: true
+  - number: 3
+    title: "Layer 3: Применение (Application)"
+    delegate_to: layer-3-application
+    dialogue_point: true
+  - number: 4
+    title: "Layer 4: Рефлексия (Reflection)"
+    delegate_to: layer-4-reflection
+    dialogue_point: true
+  - number: 5
+    title: "Layer 5: Интеграция (Integration)"
+    delegate_to: layer-5-integration
+    dialogue_point: false
 ---
 
 # Skill: изучение концепции (concept-study)

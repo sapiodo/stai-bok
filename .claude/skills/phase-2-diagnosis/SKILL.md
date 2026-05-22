@@ -1,3 +1,19 @@
+---
+name: phase-2-diagnosis
+slug: phase-2-diagnosis
+display_id: STAI-S-Phase-2-Diagnosis
+bok_id: stai-bok
+title: "Phase 2: Диагностика"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: solve-problem
+description: |
+  Child skill of `solve-problem` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill phase-2-diagnosis` ИЛИ как часть
+  pipeline `/solve-problem` (delegate_to).
+---
+
 # Phase 2: Диагностика
 
 **Цель фазы:** глубокий системный анализ проблемы. От типа корневой причины — к системной модели, от модели — к архетипу и типичной точке рычага.

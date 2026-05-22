@@ -1,3 +1,19 @@
+---
+name: phase-1-formulation
+slug: phase-1-formulation
+display_id: STAI-S-Phase-1-Formulation
+bok_id: stai-bok
+title: "Phase 1: Формулирование проблемы"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: solve-problem
+description: |
+  Child skill of `solve-problem` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill phase-1-formulation` ИЛИ как часть
+  pipeline `/solve-problem` (delegate_to).
+---
+
 # Phase 1: Формулирование проблемы
 
 **Цель фазы:** перейти от ощущения «что-то не так» к структурированной формулировке проблемы как разрыва as-is / to-be, классифицировать тип задачи и определить тип корневой причины.

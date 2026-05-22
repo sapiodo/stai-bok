@@ -1,3 +1,19 @@
+---
+name: phase-4-implementation
+slug: phase-4-implementation
+display_id: STAI-S-Phase-4-Implementation
+bok_id: stai-bok
+title: "Phase 4: Реализация и сопровождение"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: solve-problem
+description: |
+  Child skill of `solve-problem` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill phase-4-implementation` ИЛИ как часть
+  pipeline `/solve-problem` (delegate_to).
+---
+
 # Phase 4: Реализация и сопровождение
 
 **Цель фазы:** валидация гипотез через минимальные эксперименты, анализ рисков и конфликтов, плюс **сопровождение реализации**: каденция чекпойнтов, обратная связь, пересмотр гипотез. Опционально — стратегическое расширение.

@@ -1,3 +1,19 @@
+---
+name: phase-3-solution
+slug: phase-3-solution
+display_id: STAI-S-Phase-3-Solution
+bok_id: stai-bok
+title: "Phase 3: Решение"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: solve-problem
+description: |
+  Child skill of `solve-problem` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill phase-3-solution` ИЛИ как часть
+  pipeline `/solve-problem` (delegate_to).
+---
+
 # Phase 3: Решение
 
 **Цель фазы:** от системного диагноза к портфелю гипотез. Поиск точек рычага на 5 уровнях Медоуз, анализ стейкхолдеров, приоритизация Effort/Impact.

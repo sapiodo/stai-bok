@@ -1,3 +1,19 @@
+---
+name: layer-2-comprehension
+slug: layer-2-comprehension
+display_id: STAI-S-Layer-2-Comprehension
+bok_id: stai-bok
+title: "Layer 2: Понимание (Comprehension)"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: study-concept
+description: |
+  Child skill of `study-concept` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill layer-2-comprehension` ИЛИ как часть
+  pipeline `/study-concept` (delegate_to).
+---
+
 # Layer 2: Понимание (Comprehension)
 
 **Цель слоя:** студент понимает принципы концепта и правила «если → то». Не наизусть — а так, чтобы мог объяснить, почему техника устроена именно так.

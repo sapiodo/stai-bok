@@ -1,3 +1,19 @@
+---
+name: layer-5-integration
+slug: layer-5-integration
+display_id: STAI-S-Layer-5-Integration
+bok_id: stai-bok
+title: "Layer 5: Интеграция (Integration)"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: study-concept
+description: |
+  Child skill of `study-concept` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill layer-5-integration` ИЛИ как часть
+  pipeline `/study-concept` (delegate_to).
+---
+
 # Layer 5: Интеграция (Integration)
 
 **Цель слоя:** студент видит границы концепта, связи с другими и эволюцию своего мышления.

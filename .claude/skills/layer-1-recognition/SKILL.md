@@ -1,3 +1,19 @@
+---
+name: layer-1-recognition
+slug: layer-1-recognition
+display_id: STAI-S-Layer-1-Recognition
+bok_id: stai-bok
+title: "Layer 1: Знакомство (Recognition)"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: study-concept
+description: |
+  Child skill of `study-concept` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill layer-1-recognition` ИЛИ как часть
+  pipeline `/study-concept` (delegate_to).
+---
+
 # Layer 1: Знакомство (Recognition)
 
 **Цель слоя:** студент опознаёт концепт в своём опыте. Не учит определение наизусть — узнаёт «о, я это видел».

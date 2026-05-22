@@ -11,8 +11,25 @@ slug: solve-problem
 display_id: STAI-S-Solve-Problem
 bok_id: stai-bok
 node_type: skill
-kind: simple
+kind: pipeline
 dps_level: L3
+steps:
+  - number: 1
+    title: "Phase 1: Формулирование проблемы"
+    delegate_to: phase-1-formulation
+    dialogue_point: true
+  - number: 2
+    title: "Phase 2: Диагностика"
+    delegate_to: phase-2-diagnosis
+    dialogue_point: true
+  - number: 3
+    title: "Phase 3: Решение"
+    delegate_to: phase-3-solution
+    dialogue_point: true
+  - number: 4
+    title: "Phase 4: Реализация и сопровождение"
+    delegate_to: phase-4-implementation
+    dialogue_point: false
 ---
 
 # Skill: системное решение проблемы (orchestration)

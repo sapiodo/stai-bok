@@ -1,3 +1,19 @@
+---
+name: layer-4-reflection
+slug: layer-4-reflection
+display_id: STAI-S-Layer-4-Reflection
+bok_id: stai-bok
+title: "Layer 4: Рефлексия (Reflection)"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: study-concept
+description: |
+  Child skill of `study-concept` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill layer-4-reflection` ИЛИ как часть
+  pipeline `/study-concept` (delegate_to).
+---
+
 # Layer 4: Рефлексия (Reflection)
 
 **Цель слоя:** студент сравнивает свой кейс с 2-3 контрастными кейсами. Распознаёт, как контекст меняет применение концепта.

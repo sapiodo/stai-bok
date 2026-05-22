@@ -53,6 +53,15 @@ slug_mapping:
   STAI-K-System-Archetypes: system-archetypes
   STAI-S-Solve-Problem: solve-problem
   STAI-S-Study-Concept: study-concept
+  STAI-S-Phase-1-Formulation: phase-1-formulation
+  STAI-S-Phase-2-Diagnosis: phase-2-diagnosis
+  STAI-S-Phase-3-Solution: phase-3-solution
+  STAI-S-Phase-4-Implementation: phase-4-implementation
+  STAI-S-Layer-1-Recognition: layer-1-recognition
+  STAI-S-Layer-2-Comprehension: layer-2-comprehension
+  STAI-S-Layer-3-Application: layer-3-application
+  STAI-S-Layer-4-Reflection: layer-4-reflection
+  STAI-S-Layer-5-Integration: layer-5-integration
 
 # DPS levels (simplified vs ST_BoK — stai-bok skills monolithic, Level 2
 # decomposition в backlog).
@@ -221,19 +230,48 @@ edges:
   to: hypothesis-portfolio
   relation: see-also
 
+
+# Level 2 decomposition (2026-05-22) — delegate-to edges parent → children
+- from: solve-problem
+  to: phase-1-formulation
+  relation: delegate-to
+- from: solve-problem
+  to: phase-2-diagnosis
+  relation: delegate-to
+- from: solve-problem
+  to: phase-3-solution
+  relation: delegate-to
+- from: solve-problem
+  to: phase-4-implementation
+  relation: delegate-to
+- from: study-concept
+  to: layer-1-recognition
+  relation: delegate-to
+- from: study-concept
+  to: layer-2-comprehension
+  relation: delegate-to
+- from: study-concept
+  to: layer-3-application
+  relation: delegate-to
+- from: study-concept
+  to: layer-4-reflection
+  relation: delegate-to
+- from: study-concept
+  to: layer-5-integration
+  relation: delegate-to
+
 stats:
   knowledge_nodes: 16
-  skills: 2
-  edges: 46
+  skills: 11  # 2 pipelines + 9 simple children (Level 2: 4 phases + 5 layers)
+  edges: 55  # +9 delegate-to (Level 2 decomposition: solve-problem -> 4 phases + study-concept -> 5 layers)
   tier_1_concepts: 8
   tier_2_concepts: 8
   manifest_version: '1.0'
-  migration_level: 1
+  migration_level: 2  # Level 2 decomposition complete 2026-05-22
   migration_date: '2026-05-22'
   driven_by: DM-536-26 v2 (External BoK Import Protocol)
 
 # Wave 5 backlog (после accepted DM-536-26 в ThinkDo):
-# - Level 2 декомпозиция skills (solve-problem → 4 phase-* simple skills;
-#   study-concept → 5 layer-* simple skills)
+# - Level 2 decomposition DONE 2026-05-22 (skills + edges added above)
 # - Level 3 — YAML steps[] с prompt_template для DPS Engine pipeline runtime
 # - Lessons mirror в ST_BoK (Block 4 mirror в обоих, см. Wave 5 plan)

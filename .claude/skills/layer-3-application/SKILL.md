@@ -1,3 +1,19 @@
+---
+name: layer-3-application
+slug: layer-3-application
+display_id: STAI-S-Layer-3-Application
+bok_id: stai-bok
+title: "Layer 3: Применение (Application)"
+node_type: skill
+kind: simple
+dps_level: L2
+parent_pipeline: study-concept
+description: |
+  Child skill of `study-concept` pipeline. Содержит canon одной фазы / слоя.
+  Может быть вызван автономно через `/skill layer-3-application` ИЛИ как часть
+  pipeline `/study-concept` (delegate_to).
+---
+
 # Layer 3: Применение (Application)
 
 **Цель слоя:** студент применяет концепт на своём кейсе. Это **деятельный** слой — не объяснение, а работа.
