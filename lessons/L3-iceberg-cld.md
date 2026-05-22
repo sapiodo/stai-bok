@@ -1,6 +1,22 @@
 ---
 lesson: L3-iceberg-cld
-title: "Конспект лекции 3 — Проблематизация: от ситуации к проблеме и решению"
+slug: L3-iceberg-cld
+display_id: STAI-L-L3-Iceberg-Cld
+bok_id: stai-bok
+title: "Iceberg + CLD — диагностика структуры проблемы"
+node_type: lesson
+tier: 1
+primary_node_id: iceberg-model  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент применяет Iceberg Model (4 уровня) и Causal Loop Diagrams для диагностики системной структуры проблемы.
+estimated_minutes: 120
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L3-iceberg-cld.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L3-iceberg-cld
+  url: think_do/ST_BoK/lessons/536-L-L3-iceberg-cld.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект лекции 3 — Проблематизация: от ситуации к проблеме и решению

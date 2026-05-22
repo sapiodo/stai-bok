@@ -82,6 +82,52 @@ dps_levels:
     - STAI-S-Solve-Problem
 
 # Router — stai-bok НЕ имеет router skill (manual choice через slash command).
+
+# Lessons (Wave 5 b — Block 4 mirror в обоих)
+lessons:
+- slug: L1-introduction
+  title: "Введение — Системное мышление с AI"
+  tier: 1
+  estimated_minutes: 60
+  primary_node_id: cynefin
+  external_mirror_slug: 536-L-L1-introduction  # ST_BoK canonical superset
+- slug: L2-problem-definition
+  title: "Определение проблемы — 5 элементов формулирования"
+  tier: 1
+  estimated_minutes: 90
+  primary_node_id: problem-formulation
+  external_mirror_slug: 536-L-L2-problem-definition  # ST_BoK canonical superset
+- slug: L3-iceberg-cld
+  title: "Iceberg + CLD — диагностика структуры проблемы"
+  tier: 1
+  estimated_minutes: 120
+  primary_node_id: iceberg-model
+  external_mirror_slug: 536-L-L3-iceberg-cld  # ST_BoK canonical superset
+- slug: L4-archetypes
+  title: "Системные архетипы Senge — паттерны контрпродуктивного поведения"
+  tier: 1
+  estimated_minutes: 90
+  primary_node_id: system-archetypes
+  external_mirror_slug: 536-L-L4-archetypes  # ST_BoK canonical superset
+- slug: L5-leverage-points
+  title: "12 точек рычага Donella Meadows — где воздействовать на систему"
+  tier: 1
+  estimated_minutes: 90
+  primary_node_id: leverage-points
+  external_mirror_slug: 536-L-L5-leverage-points  # ST_BoK canonical superset
+- slug: L6-validation-experiments
+  title: "Валидация решений — гипотезы и эксперименты"
+  tier: 2
+  estimated_minutes: 90
+  primary_node_id: hypothesis-portfolio
+  external_mirror_slug: 536-L-L6-validation-experiments  # ST_BoK canonical superset
+- slug: L7-strategic-bridge
+  title: "От системного к стратегическому — мост через scenario thinking"
+  tier: 2
+  estimated_minutes: 90
+  primary_node_id: scenario-thinking
+  external_mirror_slug: 536-L-L7-strategic-bridge  # ST_BoK canonical superset
+
 router:
   slug: null
   fallback_level: L2
@@ -262,6 +308,7 @@ edges:
 
 stats:
   knowledge_nodes: 16
+  lessons: 7  # NEW Wave 5 b — public CC subset, full content в lessons/L1..L7.md
   skills: 11  # 2 pipelines + 9 simple children (Level 2: 4 phases + 5 layers)
   edges: 55  # +9 delegate-to (Level 2 decomposition: solve-problem -> 4 phases + study-concept -> 5 layers)
   tier_1_concepts: 8

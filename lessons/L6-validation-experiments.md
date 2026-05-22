@@ -1,6 +1,22 @@
 ---
 lesson: L6-validation-experiments
-title: "Конспект лекции 6 — Точки рычага и поиск решения (Leverage Points)"
+slug: L6-validation-experiments
+display_id: STAI-L-L6-Validation-Experiments
+bok_id: stai-bok
+title: "Валидация решений — гипотезы и эксперименты"
+node_type: lesson
+tier: 2
+primary_node_id: hypothesis-portfolio  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент формулирует решения как фальсифицируемые гипотезы и проектирует minimum viable test для каждой.
+estimated_minutes: 90
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L6-validation-experiments.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L6-validation-experiments
+  url: think_do/ST_BoK/lessons/536-L-L6-validation-experiments.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект лекции 6 — Точки рычага и поиск решения (Leverage Points)

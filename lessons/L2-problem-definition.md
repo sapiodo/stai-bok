@@ -1,6 +1,22 @@
 ---
 lesson: L2-problem-definition
-title: "Конспект лекции 2 — Определение проблемы"
+slug: L2-problem-definition
+display_id: STAI-L-L2-Problem-Definition
+bok_id: stai-bok
+title: "Определение проблемы — 5 элементов формулирования"
+node_type: lesson
+tier: 1
+primary_node_id: problem-formulation  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент формулирует проблему через 5 элементов (НЯ / контекст / стейкхолдеры / gap / решение) и проверяет «нет субъекта — нет проблемы».
+estimated_minutes: 90
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L2-problem-definition.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L2-problem-definition
+  url: think_do/ST_BoK/lessons/536-L-L2-problem-definition.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект лекции 2 — Определение проблемы

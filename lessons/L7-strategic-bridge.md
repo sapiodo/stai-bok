@@ -1,6 +1,22 @@
 ---
 lesson: L7-strategic-bridge
-title: "Конспект занятия 7 (S1) — Старт лабораторной работы"
+slug: L7-strategic-bridge
+display_id: STAI-L-L7-Strategic-Bridge
+bok_id: stai-bok
+title: "От системного к стратегическому — мост через scenario thinking"
+node_type: lesson
+tier: 2
+primary_node_id: scenario-thinking  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент строит сценарную матрицу 2×2 ключевых неопределённостей и формулирует robust + contingent стратегические ставки.
+estimated_minutes: 90
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L7-strategic-bridge.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L7-strategic-bridge
+  url: think_do/ST_BoK/lessons/536-L-L7-strategic-bridge.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект занятия 7 (S1) — Старт лабораторной работы

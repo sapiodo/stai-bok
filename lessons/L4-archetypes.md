@@ -1,6 +1,22 @@
 ---
 lesson: L4-archetypes
-title: "Конспект лекции 4 — Iceberg Model и каузальные петли обратной связи (CLD)"
+slug: L4-archetypes
+display_id: STAI-L-L4-Archetypes
+bok_id: stai-bok
+title: "Системные архетипы Senge — паттерны контрпродуктивного поведения"
+node_type: lesson
+tier: 1
+primary_node_id: system-archetypes  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент опознаёт 5 базовых архетипов (Limits to Growth, Shifting the Burden, Fixes that Fail, Eroding Goals, Success to Successful) в своих кейсах.
+estimated_minutes: 90
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L4-archetypes.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L4-archetypes
+  url: think_do/ST_BoK/lessons/536-L-L4-archetypes.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект лекции 4 — Iceberg Model и каузальные петли обратной связи (CLD)

@@ -1,6 +1,22 @@
 ---
 lesson: L1-introduction
-title: "Введение в системное мышление с AI"
+slug: L1-introduction
+display_id: STAI-L-L1-Introduction
+bok_id: stai-bok
+title: "Введение — Системное мышление с AI"
+node_type: lesson
+tier: 1
+primary_node_id: cynefin  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент различает 4 домена Cynefin и осознанно классифицирует свои задачи (Clear / Complicated / Complex / Chaotic).
+estimated_minutes: 60
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L1-introduction.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L1-introduction
+  url: think_do/ST_BoK/lessons/536-L-L1-introduction.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # L1 — Введение в системное мышление с AI

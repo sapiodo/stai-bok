@@ -1,6 +1,22 @@
 ---
 lesson: L5-leverage-points
-title: "Конспект лекции 5 — Системные архетипы"
+slug: L5-leverage-points
+display_id: STAI-L-L5-Leverage-Points
+bok_id: stai-bok
+title: "12 точек рычага Donella Meadows — где воздействовать на систему"
+node_type: lesson
+tier: 1
+primary_node_id: leverage-points  # stai-bok concept slug; resolved во время import seed_external_bok
+learning_objective: >-
+  Студент выбирает leverage point для intervention с учётом «парадокса рычага» (сильнее рычаг → сложнее использовать).
+estimated_minutes: 90
+canonical_source: https://github.com/sapiodo/stai-bok/blob/main/lessons/L5-leverage-points.md
+external_mirrors:
+- bok: ST_BoK
+  slug: 536-L-L5-leverage-points
+  url: think_do/ST_BoK/lessons/536-L-L5-leverage-points.md
+  relation: canonical_superset_in_master_strategy
+  notes: 'stai-bok lesson = public CC subset; ST_BoK lesson = canonical superset Дмитрия (depth + adaptations)'
 ---
 
 # Конспект лекции 5 — Системные архетипы
